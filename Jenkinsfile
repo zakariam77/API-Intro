@@ -24,8 +24,7 @@ stage('execute tests') {
         post{
         always {
         junit '**/target/surefire-reports/*.xml'
-        allure [[path: 'target/allure-results']]
-}
+        allure results: [[path: 'target/allure-results']]}
 success {
     echo 'build success'
 }
