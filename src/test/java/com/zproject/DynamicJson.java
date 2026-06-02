@@ -42,10 +42,10 @@ public class DynamicJson {
     @DataProvider(name= "sqlData", parallel = true)
     public Iterator<String[]> sqlData() throws SQLException {
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://sql.freedb.tech:3306/freedb_NS1FEoji", "u_oZq85f", "KbN0wGlpefm7");
 
         Statement statement = conn.createStatement();
-        ResultSet rs = statement.executeQuery("select isbn, aisle from jsonData");
+        ResultSet rs = statement.executeQuery("select isbn, aisle from jsondata");
         List<String[]> list = new ArrayList<>();
         while(rs.next()){
            String isbn = rs.getString("isbn");
