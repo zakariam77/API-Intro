@@ -1,4 +1,4 @@
-package com.zproject;
+package utils;
 
 import io.restassured.path.json.JsonPath;
 

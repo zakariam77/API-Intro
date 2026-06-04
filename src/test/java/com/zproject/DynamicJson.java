@@ -21,7 +21,7 @@ public class DynamicJson {
         RestAssured.baseURI = "http://216.10.245.166";
         // add book
         String response = given().header("ContentType", "application/json").
-                body(Data.getBook(isbn, aisle)).when().post("Library/Addbook.php").then().log().all().assertThat().statusCode(200)
+                body(rawData(isbn, aisle)).when().post("Library/Addbook.php").then().log().all().assertThat().statusCode(200)
                 .extract().response().asString();
 
         JsonPath js = new JsonPath(response);
@@ -42,7 +42,7 @@ public class DynamicJson {
     @DataProvider(name= "sqlData", parallel = true)
     public Iterator<String[]> sqlData() throws SQLException {
 
-        Connection conn = DriverManager.getConnection("jdbc:mysql://sql.freedb.tech:3306/freedb_NS1FEoji", "u_oZq85f", "KbN0wGlpefm7");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "root");
 
         Statement statement = conn.createStatement();
         ResultSet rs = statement.executeQuery("select isbn, aisle from jsondata");
@@ -56,6 +56,16 @@ public class DynamicJson {
         statement.close();
         rs.close();
         return list.iterator();
+    }
+
+    public String rawData(String isbn, String aisle){
+        String request = "{\n" +
+                "\"name\":\"Learn Appium Automation withd Java\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\"Johnc foe\"\n" +
+                "}";
+        return request;
     }
 
 
