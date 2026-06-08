@@ -1,5 +1,6 @@
 package com.zproject.jira;
 
+import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,7 +22,7 @@ public class CreateBugClass {
     @Test
     public void createBug() throws IOException {
 
-
+        RestAssured.baseURI = "https://zakariamoujahid90.atlassian.net";
 
         String key = "Basic emFrYXJpYW1vdWphaGlkOTBAZ21haWwuY29tOkFUQVRUM3hGZkdGMDRQemEzWHh6dFN2OUFiYzdIY1ZybW5TX2J6QWhqTTJQXzliWkVhSGxkQXUyQmxxbUFwYzBiVEpZdFN5cHpteXlZakNuYndNOWhNX3dnQzROYjl2RTYxdWhNdnE3eUdwbXAxb3lIc1ppTG9NSk83Qk95UFNVTVF0NDdIaHZiZ01xcHJwUzNtVndWUTBId1I2TXB2YzVySjYyNjZLTDB3SjZOOGtVbDVDRzVwND03OTIxNTBBRA==";
         String createBugJson = Files.readString(Path.of(System.getProperty("user.dir") + "/src/test/java/com/zproject/jira/files/createBug.json"), StandardCharsets.UTF_8);

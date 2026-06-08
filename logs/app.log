@@ -1170,3 +1170,52 @@
 2026-06-07 02:08:49 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
 
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-08 17:53:04 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-06-08 17:53:05 INFO  com.zproject.jira.CreateBugClass - creating issue / post request
+2026-06-08 17:53:06 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@63f855b: 38 ms
+2026-06-08 17:53:06 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3b42121d: 10 ms
+2026-06-08 17:53:06 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@535b1ae6: 5 ms
+2026-06-08 17:53:06 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@20999517: 4 ms
+2026-06-08 17:53:06 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@40bb4f87: 5 ms
+2026-06-08 17:53:06 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@51a651c1: 0 ms
+2026-06-08 17:53:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-08 17:53:51 INFO  com.zproject.jira.CreateBugClass - creating issue / post request
+2026-06-08 17:57:31 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-08 17:57:32 INFO  com.zproject.jira.CreateBugClass - creating issue / post request
+2026-06-08 17:57:34 INFO  com.zproject.jira.CreateBugClass - post request / attach file multipart
+2026-06-08 17:57:36 INFO  com.zproject.jira.CreateBugClass - get request / get issue
+2026-06-08 17:57:37 INFO  com.zproject.jira.CreateBugClass - assert file has been attached 
