@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/work/QA/API_start">
         <classes>
-            <class name="com.zproject.jira.CreateBug">
+            <class name="com.zproject.jira.CreateBugClass">
                 <methods>
                     <include name="createBug"/>
                 </methods>

@@ -1,0 +1,195 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10169",
+  "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/issue/10169",
+  "key": "ASTROS-25",
+  "fields": {
+    "statuscategorychangedate": "2026-06-06T19:56:05.658+0100",
+    "issuetype": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/issuetype/10044",
+      "id": "10044",
+      "description": "A problem or error.",
+      "iconUrl": "https://zakariamoujahid90.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "entityId": "34a74fa4-c457-4938-b45c-0a090a8ee433",
+      "hierarchyLevel": 0
+    },
+    "components": [
+    ],
+    "timespent": null,
+    "timeoriginalestimate": null,
+    "project": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/project/10033",
+      "id": "10033",
+      "key": "ASTROS",
+      "name": "Astros",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://zakariamoujahid90.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10410",
+        "24x24": "https://zakariamoujahid90.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10410?size=small",
+        "16x16": "https://zakariamoujahid90.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10410?size=xsmall",
+        "32x32": "https://zakariamoujahid90.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10410?size=medium"
+      }
+    },
+    "description": "Creating of an issue using project keys, issue type names and file attachment using the REST API",
+    "customfield_10033": null,
+    "fixVersions": [
+    ],
+    "aggregatetimespent": null,
+    "statusCategory": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    },
+    "resolution": null,
+    "timetracking": {
+    },
+    "customfield_10015": null,
+    "security": null,
+    "attachment": [
+      {
+        "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/attachment/10059",
+        "id": "10059",
+        "filename": "Screenshot.jpg",
+        "author": {
+          "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/user?accountId=712020%3A4aeab565-600d-43a2-81af-ffe93496e94c",
+          "accountId": "712020:4aeab565-600d-43a2-81af-ffe93496e94c",
+          "emailAddress": "zakariamoujahid90@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/32"
+          },
+          "displayName": "Zakaria",
+          "active": true,
+          "timeZone": "Africa/Casablanca",
+          "accountType": "atlassian"
+        },
+        "created": "2026-06-06T19:56:06.809+0100",
+        "size": 42966,
+        "mimeType": "image/jpeg",
+        "content": "https://zakariamoujahid90.atlassian.net/rest/api/2/attachment/content/10059",
+        "thumbnail": "https://zakariamoujahid90.atlassian.net/rest/api/2/attachment/thumbnail/10059"
+      }
+    ],
+    "aggregatetimeestimate": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "summary": "Bug with screenshot automation.",
+    "issuerestriction": {
+      "issuerestrictions": {
+      },
+      "shouldDisplay": true
+    },
+    "watches": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/issue/ASTROS-25/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "lastViewed": null,
+    "creator": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/user?accountId=712020%3A4aeab565-600d-43a2-81af-ffe93496e94c",
+      "accountId": "712020:4aeab565-600d-43a2-81af-ffe93496e94c",
+      "emailAddress": "zakariamoujahid90@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/32"
+      },
+      "displayName": "Zakaria",
+      "active": true,
+      "timeZone": "Africa/Casablanca",
+      "accountType": "atlassian"
+    },
+    "subtasks": [
+    ],
+    "created": "2026-06-06T19:56:05.393+0100",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "reporter": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/user?accountId=712020%3A4aeab565-600d-43a2-81af-ffe93496e94c",
+      "accountId": "712020:4aeab565-600d-43a2-81af-ffe93496e94c",
+      "emailAddress": "zakariamoujahid90@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4aeab565-600d-43a2-81af-ffe93496e94c/635765bb-e3c5-4c06-8943-fd289ae25237/32"
+      },
+      "displayName": "Zakaria",
+      "active": true,
+      "timeZone": "Africa/Casablanca",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "priority": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://zakariamoujahid90.atlassian.net/images/icons/priorities/medium_new.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10001": null,
+    "labels": [
+    ],
+    "customfield_10016": null,
+    "environment": null,
+    "customfield_10019": "0|i0008v:",
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [
+    ],
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "issuelinks": [
+    ],
+    "votes": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/issue/ASTROS-25/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "comment": {
+      "comments": [
+      ],
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/issue/10169/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "assignee": null,
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": [
+      ]
+    },
+    "updated": "2026-06-06T19:56:07.433+0100",
+    "status": {
+      "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/status/10036",
+      "description": "",
+      "iconUrl": "https://zakariamoujahid90.atlassian.net/images/icons/statuses/generic.png",
+      "name": "To Do",
+      "id": "10036",
+      "statusCategory": {
+        "self": "https://zakariamoujahid90.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    }
+  }
+}

@@ -1,7 +1,8 @@
 package com.zproject.jira;
 
-import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,29 +14,35 @@ import java.nio.file.Path;
 
 import static io.restassured.RestAssured.given;
 
-public class CreateBug {
+public class CreateBugClass {
+
+    private final Logger logger = LogManager.getLogger(CreateBugClass.class);
 
     @Test
     public void createBug() throws IOException {
-        String key = "Basic emFrYXJpYW1vdWphaGlkOTBAZ21haWwuY29tOkFUQVRUM3hGZkdGMDRQemEzWHh6dFN2OUFiYzdIY1ZybW5TX2J6QWhqTTJQXzliWkVhSGxkQXUyQmxxbUFwYzBiVEpZdFN5cHpteXlZakNuYndNOWhNX3dnQzROYjl2RTYxdWhNdnE3eUdwbXAxb3lIc1ppTG9NSk83Qk95UFNVTVF0NDdIaHZiZ01xcHJwUzNtVndWUTBId1I2TXB2YzVySjYyNjZLTDB3SjZOOGtVbDVDRzVwND03OTIxNTBBRA==";
-        String createBugPL = Files.readString(Path.of(System.getProperty("user.dir") + "/src/test/java/com/zproject/files/createBug.json"), StandardCharsets.UTF_8);
-        JsonPath js;
-        System.out.println(createBugPL);
-        RestAssured.baseURI = "https://zakariamoujahid90.atlassian.net";
 
+
+
+        String key = "Basic emFrYXJpYW1vdWphaGlkOTBAZ21haWwuY29tOkFUQVRUM3hGZkdGMDRQemEzWHh6dFN2OUFiYzdIY1ZybW5TX2J6QWhqTTJQXzliWkVhSGxkQXUyQmxxbUFwYzBiVEpZdFN5cHpteXlZakNuYndNOWhNX3dnQzROYjl2RTYxdWhNdnE3eUdwbXAxb3lIc1ppTG9NSk83Qk95UFNVTVF0NDdIaHZiZ01xcHJwUzNtVndWUTBId1I2TXB2YzVySjYyNjZLTDB3SjZOOGtVbDVDRzVwND03OTIxNTBBRA==";
+        String createBugJson = Files.readString(Path.of(System.getProperty("user.dir") + "/src/test/java/com/zproject/jira/files/createBug.json"), StandardCharsets.UTF_8);
+
+
+        // create issue
+        logger.info("creating issue / post request");
         String response = given()
                 .header("Accept", "application/json")
                 .header("Authorization", key)
                 .header("Content-Type", "application/json")
-                .body(createBugPL).when().post("rest/api/2/issue")
+                .body(createBugJson).when().post("rest/api/2/issue")
                 .then().log().all().assertThat().statusCode(201).extract().body().asString();
 
 
-
-        File screenshotAttach = new File(System.getProperty("user.dir") + "/media/Screenshot.jpg");
+        // attach file to issue
+        logger.info("post request / attach file multipart");
+        File screenshotAttach = new File(System.getProperty("user.dir") + "/files/Screenshot.jpg");
+        JsonPath js;
         js = new JsonPath(response);
         String issueId = js.getString("id");
-
 
         given().log().headers().pathParam("issueId", issueId)
                 .header("Content-type", "multipart/form-data")
@@ -46,16 +53,24 @@ public class CreateBug {
                 .then().log().all().assertThat().statusCode(200);
 
 
-
+        //get issue
+        logger.info("get request / get issue");
         String getResponse = given().log().all().pathParam("issueId", issueId)
                 .header("Accept", "application/json")
                 .header("Authorization", key).when().get("/rest/api/2/issue/{issueId}")
                 .then().log().all().assertThat().statusCode(200).extract().body().asString();
+        System.out.println(getResponse);
 
 
+
+        logger.info("assert file has been attached ");
         js = new JsonPath(getResponse);
         String fileName = js.getString("fields.attachment[0].filename");
         Assert.assertEquals(fileName, screenshotAttach.getName());
+
+
     }
+
+
 
 }

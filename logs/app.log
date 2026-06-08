@@ -963,7 +963,7 @@
 2026-06-04 21:03:26 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@47dbb1e2: 5 ms
 2026-06-04 21:03:26 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@773f7880: 4 ms
 2026-06-04 21:03:26 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@878452d: 0 ms
-2026-06-04 21:03:56 INFO  org.testng.internal.Utils - [Warning] The regular expression "com.zproject.jira.CreateBug" didn't match any method in class com.zproject.DynamicJson
+2026-06-04 21:03:56 INFO  org.testng.internal.Utils - [Warning] The regular expression "com.zproject.jira.CreateBugClass" didn't match any method in class com.zproject.DynamicJson
 2026-06-04 21:03:56 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
 2026-06-04 21:03:56 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
 2026-06-04 21:03:56 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
@@ -1093,5 +1093,80 @@
   C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
 
 2026-06-04 22:07:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-05 00:06:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-05 00:09:40 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-05 00:12:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-05 00:13:05 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-05 20:56:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 19:41:57 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 19:42:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 19:56:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 20:05:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 20:07:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 20:11:05 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 20:11:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 20:13:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 21:36:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:05:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:05:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:06:03 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:35:49 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:39:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:49:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-06 22:53:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-07 02:04:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-07 02:04:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-07 02:05:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-07 02:08:49 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
 
