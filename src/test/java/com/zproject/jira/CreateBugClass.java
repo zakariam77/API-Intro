@@ -60,7 +60,6 @@ public class CreateBugClass {
                 .header("Accept", "application/json")
                 .header("Authorization", key).when().get("/rest/api/2/issue/{issueId}")
                 .then().log().all().assertThat().statusCode(200).extract().body().asString();
-        System.out.println(getResponse);
 
 
 
