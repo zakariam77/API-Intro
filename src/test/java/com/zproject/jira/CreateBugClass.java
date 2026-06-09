@@ -24,7 +24,7 @@ public class CreateBugClass {
 
         RestAssured.baseURI = "https://zakariamoujahid90.atlassian.net";
 
-        String key = "Basic emFrYXJpYW1vdWphaGlkOTBAZ21haWwuY29tOkFUQVRUM3hGZkdGMDRQemEzWHh6dFN2OUFiYzdIY1ZybW5TX2J6QWhqTTJQXzliWkVhSGxkQXUyQmxxbUFwYzBiVEpZdFN5cHpteXlZakNuYndNOWhNX3dnQzROYjl2RTYxdWhNdnE3eUdwbXAxb3lIc1ppTG9NSk83Qk95UFNVTVF0NDdIaHZiZ01xcHJwUzNtVndWUTBId1I2TXB2YzVySjYyNjZLTDB3SjZOOGtVbDVDRzVwND03OTIxNTBBRA==";
+        String key = "Basic emFrYXJpYW1vdWphaGlkOTBAZ21haWwuY29tOkFUQVRUM3hGZkdGMFBkcXFXWjN5XzFEQ2MxRV82d0JqSVFjbVVqZm5YeUZTWV9oYk1xUjlNNnE4aWQzZ2VpNHo1dXYtRFJ6aEVPTWJuTzlXM0hUa1BRdHdKYWt1SVRRSXpOYnpyQnNEXzg2bWszbUpGUWM1bHZKVTF6RThNeFpza2lKcGZSOHM2aE5XVTROVUp5NDJjUDN2Ym5Cbmc0cGNvdlVJeDlqaVNNeDhYd0JRQ0VCNTJ0Zz03MDI2RkNEMA==";
         String createBugJson = Files.readString(Path.of(System.getProperty("user.dir") + "/src/test/java/com/zproject/jira/files/createBug.json"), StandardCharsets.UTF_8);
 
 

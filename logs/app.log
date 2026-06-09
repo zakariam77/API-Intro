@@ -1219,3 +1219,14 @@
 2026-06-08 17:57:34 INFO  com.zproject.jira.CreateBugClass - post request / attach file multipart
 2026-06-08 17:57:36 INFO  com.zproject.jira.CreateBugClass - get request / get issue
 2026-06-08 17:57:37 INFO  com.zproject.jira.CreateBugClass - assert file has been attached 
+2026-06-09 17:44:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-09 17:44:36 INFO  com.zproject.jira.CreateBugClass - creating issue / post request
+2026-06-09 17:48:39 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\car\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2026-06-09 17:48:40 INFO  com.zproject.jira.CreateBugClass - creating issue / post request
+2026-06-09 17:48:43 INFO  com.zproject.jira.CreateBugClass - post request / attach file multipart
+2026-06-09 17:48:45 INFO  com.zproject.jira.CreateBugClass - get request / get issue
+2026-06-09 17:48:45 INFO  com.zproject.jira.CreateBugClass - assert file has been attached 
